@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kian Lee Calumba | Web Developer / Student</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="#home" class="brand">
+      <img src="images/logo.png" alt="KL logo">
+      <span>Kian Lee Calumba</span>
+    </a>
+    <button class="menu-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+    <nav class="nav-links">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <h3 class="hello">HELLO, I'M</h3>
+        <h1>Kian Lee <span>Calumba</span></h1>
+        <h2>Web Developer / Student</h2>
+        <p>Passionate about creating modern web solutions and exploring new technologies.</p>
+        <a href="#projects" class="btn">View My Projects <i class="fa-solid fa-arrow-right"></i></a>
+        <div class="socials">
+          <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="circle"><img src="images/hero.jpg" alt="Kian Lee Calumba"></div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="about-photo"><img src="images/about.jpg" alt="Kian Lee Calumba portrait"></div>
+      <div class="about-info">
+        <h2 class="title">About <span>Me</span></h2>
+        <p>I am a student with a strong interest in web development, programming, and technology. I enjoy learning new skills, building projects, and turning ideas into real solutions.</p>
+        <ul class="details">
+          <li><i class="fa-solid fa-user"></i><b>Full Name</b><em>:</em><span>Kian Lee Calumba</span></li>
+          <li><i class="fa-solid fa-graduation-cap"></i><b>Education</b><em>:</em><span>College (BSIT)</span></li>
+          <li><i class="fa-solid fa-building-columns"></i><b>School</b><em>:</em><span>Metro Dumagauate City </span></li>
+          <li><i class="fa-solid fa-heart"></i><b>Interests</b><em>:</em><span>Coding, Gaming, Music, Sports</span></li>
+          <li><i class="fa-solid fa-location-dot"></i><b>Location</b><em>:</em><span>Philippines</span></li>
+          <li><i class="fa-solid fa-envelope"></i><b>Email</b><em>:</em><span>Kianlee.calumba@gmail.com</span></li>
+          <li><i class="fa-solid fa-phone"></i><b>Phone</b><em>:</em><span>+63 912 345 6789</span></li>
+          <li><i class="fa-solid fa-language"></i><b>Language</b><em>:</em>English</span><span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2 class="title">My <span>Skills</span></h2>
+      <div class="skill-grid">
+        <div class="skill-card"><img src="images/html5.png" alt="HTML"><div><h4>HTML</h4><div class="stars">★★★★☆</div><small>4/5</small></div></div>
+        <div class="skill-card"><img src="images/css3.jpg" alt="CSS"><div><h4>CSS</h4><div class="stars">★★★★☆</div><small>4/5</small></div></div>
+        <div class="skill-card"><img src="images/javascript.png" alt="JavaScript"><div><h4>JavaScript</h4><div class="stars">★★★☆☆</div><small>3/5</small></div></div>
+        <div class="skill-card"><img src="images/python.jpg" alt="Python"><div><h4>Python</h4><div class="stars">★★★☆☆</div><small>3/5</small></div></div>
+        <div class="skill-card"><img src="images/database.jpg" alt="Database"><div><h4>Database</h4><div class="stars">★★★★☆</div><small>4/5</small></div></div>
+        <div class="skill-card"><img src="images/react.png" alt="React"><div><h4>React</h4><div class="stars">★★★☆☆</div><small>3/5</small></div></div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2 class="title">My <span>Projects</span></h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-img"><img src="images/Hydroplanner.png" alt="EasyPaper vendo machine"></div>
+          <h4>HydroSense (IoT Hydroponics Monitoring System)</h4>
+          <p>A mobile app that monitors hydroponics system data in real-time using IoT.</p>
+          <a href="#" class="btn small">View Project <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+        <article class="project-card">
+          <div class="project-img"><img src="images/easypaper.jpg" alt="EasyPaper vendo machine"></div>
+          <h4>EasyPaper (Bond Paper Vendo Machine)</h4>
+          <p>An automated bond paper vending machine for students and teachers.</p>
+          <a href="#" class="btn small">View Project <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+        <article class="project-card">
+          <div class="project-img"><img src="images/portfolio.png" alt="Portfolio website preview"></div>
+          <h4>Personal Portfolio Website</h4>
+          <p>A responsive and modern portfolio website showcasing my skills and projects.</p>
+          <a href="#" class="btn small">View Project <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2 class="title">Contact <span>Me</span></h2>
+      <div class="contact-wrap">
+        <div class="contact-info">
+          <h3>Let's Work Together!</h3>
+          <p>Feel free to reach out to me for collaborations, project inquiries, or just to say hi!</p>
+          <ul>
+            <li><i class="fa-solid fa-envelope"></i><div><b>Email</b><span>Kianlee.calumba@gmail.com</span></div></li>
+            <li><i class="fa-solid fa-phone"></i><div><b>Phone</b><span>+63 912 345 6789</span></div></li>
+            <li><i class="fa-solid fa-location-dot"></i><div><b>Location</b><span>Philippines</span></div></li>
+          </ul>
+          <div class="socials round">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <form class="contact-form" action="mailto:Kianlee.calumba@gmail.com" method="post" enctype="text/plain">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your email" required>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+          <button type="submit" class="btn full"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="images/logo.png" alt="KL logo">
+        <div><h4>Kian Lee Calumba</h4><small>Build • Learn • Grow</small></div>
+      </div>
+      <nav class="footer-links">
+        <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+      </nav>
+      <div class="socials small">
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    <p class="copyright">© 2026 Kian Lee Calumba &nbsp;|&nbsp; My Portfolio</p>
+  </footer>
+
+</body>
+</html>
